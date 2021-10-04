@@ -1,4 +1,4 @@
-def start() :
+def start():
     # this is the welcome screen
     print('''
      ███████████                                   █████████            ████          
@@ -38,13 +38,13 @@ def start() :
     if num2 == 0:
         print("Can't input 0 for now")
     if op_select == "1":
-        print(multi)
+        print(round(multi))
     if op_select == "2":
-        print(div)
+        print(round(div))
     if op_select == "3":
-        print(sub)
+        print(round(sub))
     if op_select == "4":
-        print(plus)
+        print(round(plus))
 print(start())
 end_screen = input("would you like to restart? if you would press 1, if you would like to quit press 0:")
 while end_screen == "1":
