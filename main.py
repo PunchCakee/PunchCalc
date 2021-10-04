@@ -32,7 +32,7 @@ def start():
     plus = num + num2
     sub = num - num2
     div = num / num2
-    # and these ofcourse are the if statments
+    # and these ofcourse are the if statments 
     if num == 0:
         print("Can't input 0 for now")
     if num2 == 0:
