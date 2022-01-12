@@ -49,3 +49,5 @@ print(start())
 end_screen = input("would you like to restart? if you would press 1, if you would like to quit press 0:")
 while end_screen == "1":
     start()
+while end_screen == "0":
+    exit()
