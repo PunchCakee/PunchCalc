@@ -13,13 +13,7 @@ def start():
     ''')
     # cofigring user inputs and the selection screen
     usr_num = input(" Enter a number: ")
-    if type(usr_num) == str:
-        print("invalid input")
-        quit()
     usr_num2 = input(" Enter a second number: ")
-    if type(usr_num2) == str:
-        print("invalid input")
-        quit()
     op_select = input(''' 
     ----------------------------------------------------------------
             |          1- multiplication                           |
