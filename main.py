@@ -13,7 +13,13 @@ def start():
     ''')
     # cofigring user inputs and the selection screen
     usr_num = input(" Enter a number: ")
+    if type(usr_num) == str:
+        print("invalid input")
+        quit()
     usr_num2 = input(" Enter a second number: ")
+    if type(usr_num2) == str:
+        print("invalid input")
+        quit()
     op_select = input(''' 
     ----------------------------------------------------------------
             |          1- multiplication                           |
@@ -45,9 +51,10 @@ def start():
         print(round(sub))
     if op_select == "4":
         print(round(plus))
+################################################################################################################################################################
 print(start())
 end_screen = input("would you like to restart? if you would press 1, if you would like to quit press 0:")
 while end_screen == "1":
     start()
 while end_screen == "0":
-    exit()
+    quit()
